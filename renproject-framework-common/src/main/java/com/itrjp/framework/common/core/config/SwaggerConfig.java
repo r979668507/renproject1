@@ -13,7 +13,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 /**
  * swagger配置
  *
- * @author zhangqing
+ * @author renjp
  * @date 2017年03月28日
  */
 @Configuration
@@ -42,16 +42,16 @@ public class SwaggerConfig {
                 .title("接口规范")
                 .description("")
                 .termsOfServiceUrl("")
-                .contact("zhangqing")
+                .contact("renjp")
                 .version("1.0")
                 .build();
     }
     private ApiInfo mobileInfo() {
         return new ApiInfoBuilder()
-                .title("北京卓益达科技有限公司手持接口规范")
+                .title("接口规范")
                 .description("")
                 .termsOfServiceUrl("")
-                .contact("zhangqing")
+                .contact("renjp")
                 .version("1.0")
                 .build();
     }
