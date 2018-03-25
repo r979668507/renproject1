@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/renproject-blog" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/renproject-blog/renproject-blog-auth" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/renproject-blog/renproject-blog-carrier-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/renproject-framework-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/renproject-framework-core" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/renproject-framework-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/renproject-mybatis-comment" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/renproject-mybatis-generator" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/renproject-project-manager" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/renproject-view-device" charset="UTF-8" />
+  </component>
+</project>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="renproject-blog-auth" />
+        <module name="renproject-blog-carrier-web" />
+        <module name="renproject-blog-web" />
+        <module name="renproject-framework-common" />
+        <module name="renproject-framework-core" />
+        <module name="renproject-framework-web" />
+        <module name="renproject-mybatis-comment" />
+        <module name="renproject-mybatis-generator" />
+        <module name="renproject-project-manager" />
+        <module name="renproject-view-device" />
+        <module name="renprojectblog" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="renproject" target="1.8" />
+      <module name="renproject-blog" target="1.8" />
+      <module name="renproject-blog-auth" target="1.8" />
+      <module name="renproject-blog-carrier-web" target="1.8" />
+      <module name="renproject-blog-web" target="1.8" />
+      <module name="renproject-dcim" target="1.8" />
+      <module name="renproject-framework-common" target="1.8" />
+      <module name="renproject-framework-core" target="1.8" />
+      <module name="renproject-framework-web" target="1.8" />
+      <module name="renproject-mybatis-comment" target="1.8" />
+      <module name="renproject-mybatis-generator" target="1.8" />
+      <module name="renproject-project-manager" target="1.8" />
+      <module name="renproject-view-device" target="1.8" />
+      <module name="renprojectblog" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
