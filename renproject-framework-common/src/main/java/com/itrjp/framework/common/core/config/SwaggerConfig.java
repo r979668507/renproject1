@@ -39,7 +39,7 @@ public class SwaggerConfig {
 
     private ApiInfo visualInfo() {
         return new ApiInfoBuilder()
-                .title("北京卓益达科技有限公司可视化接口规范")
+                .title("接口规范")
                 .description("")
                 .termsOfServiceUrl("")
                 .contact("zhangqing")
