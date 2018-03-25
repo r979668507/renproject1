@@ -1,0 +1,14 @@
+.joy-custom-layer{
+    border-radius:6px!important;
+}
+.joy-custom-layer .layui-layer-title{
+    background: #30ABDF!important;
+    color: #fff!important;
+    border: 0!important;
+    border-radius:6px 6px 0 0!important;
+}
+.joy-custom-layer .layui-layer-title>span{
+    top: 0!important;
+    left: 125px!important;
+    cursor: pointer!important;
+}

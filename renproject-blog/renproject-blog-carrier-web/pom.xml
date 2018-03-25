@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+<parent>
+	<groupId>com.itrjp.blog</groupId>
+	<artifactId>renproject-blog</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+</parent>
+	<groupId>com.itrjp.blog</groupId>
+	<artifactId>renproject-blog-carrier-web</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>jar</packaging>
+
+	<name>renproject-blog-carrier-web</name>
+	<description>Demo project for Spring Boot</description>
+
+	<properties>
+		<start-class>com.itrjp.CarrierApplication</start-class>
+		<war-version>2.4</war-version>
+		<thymeleaf.version>3.0.0.RELEASE</thymeleaf.version>
+		<thymeleaf-layout-dialect.version>2.0.0</thymeleaf-layout-dialect.version>
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>javax.servlet-api</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-test</artifactId>
+			<scope>test</scope>
+		</dependency>
+		<!--系统公用的静态资源、页面、图片等模块-->
+		<dependency>
+			<artifactId>renproject-framework-web</artifactId>
+			<groupId>com.itrjp.blog</groupId>
+			<type>war</type>
+			<version>${project.version}</version>
+		</dependency>
+		<!--<dependency>-->
+			<!--<artifactId>renproject-blog-visual</artifactId>-->
+			<!--<groupId>com.itrjp.blog</groupId>-->
+			<!--<version>${project.version}</version>-->
+		<!--</dependency>-->
+		<!--<dependency>-->
+			<!--<artifactId>renproject-blog-alarm</artifactId>-->
+			<!--<groupId>com.itrjp.blog</groupId>-->
+			<!--<version>${project.version}</version>-->
+		<!--</dependency>-->
+		<!--<dependency>-->
+			<!--<groupId>com.itrjp.blog</groupId>-->
+			<!--<artifactId>renproject-blog-moblie-rest</artifactId>-->
+			<!--<version>${project.version}</version>-->
+		<!--</dependency>-->
+		<!-- 基础信息之it设备基础信息和设备库-->
+		<!--<dependency>-->
+			<!--<groupId>com.itrjp.blog</groupId>-->
+			<!--<artifactId>renproject-blog-bi-instance</artifactId>-->
+			<!--<version>${project.version}</version>-->
+		<!--</dependency>-->
+		<!--<dependency>-->
+			<!--<groupId>com.itrjp.blog</groupId>-->
+			<!--<artifactId>renproject-blog-bpm</artifactId>-->
+			<!--<version>${project.version}</version>-->
+		<!--</dependency>-->
+		<!--<dependency>-->
+			<!--<groupId>com.itrjp.blog</groupId>-->
+			<!--<artifactId>renproject-blog-ncsce</artifactId>-->
+			<!--<version>${project.version}</version>-->
+		<!--</dependency>-->
+		<!--系统模板thymeleaf-->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-thymeleaf</artifactId>
+			<exclusions>
+				<exclusion>
+					<artifactId>groovy</artifactId>
+					<groupId>org.codehaus.groovy</groupId>
+				</exclusion>
+			</exclusions>
+		</dependency>
+		<!-- 系统插件-->
+		<!--<dependency>-->
+			<!--<groupId>com.itrjp.blog</groupId>-->
+			<!--<artifactId>renproject-blog-plugin</artifactId>-->
+			<!--<version>${project.version}</version>-->
+		<!--</dependency>-->
+		<!-- 定时任务配置-->
+		<!--<dependency>-->
+			<!--<groupId>com.itrjp.blog</groupId>-->
+			<!--<artifactId>renproject-blog-scheduler</artifactId>-->
+			<!--<version>${project.version}</version>-->
+		<!--</dependency>-->
+		<!--&lt;!&ndash;运维管理配置&ndash;&gt;-->
+		<!--<dependency>-->
+			<!--<groupId>com.itrjp.blog</groupId>-->
+			<!--<artifactId>renproject-blog-om</artifactId>-->
+			<!--<version>${project.version}</version>-->
+		<!--</dependency>-->
+		<!--&lt;!&ndash; 路由组配置&ndash;&gt;-->
+		<!--<dependency>-->
+			<!--<groupId>com.itrjp.blog</groupId>-->
+			<!--<artifactId>renproject-blog-rm</artifactId>-->
+			<!--<version>${project.version}</version>-->
+		<!--</dependency>-->
+		<!--<dependency>-->
+			<!--<groupId>com.itrjp.blog</groupId>-->
+			<!--<artifactId>renproject-blog-paip</artifactId>-->
+			<!--<version>${project.version}</version>-->
+		<!--</dependency>-->
+		<!--&lt;!&ndash;数据洞察&ndash;&gt;-->
+		<!--<dependency>-->
+			<!--<groupId>com.itrjp.blog</groupId>-->
+			<!--<artifactId>renproject-blog-di</artifactId>-->
+			<!--<version>${project.version}</version>-->
+		<!--</dependency>-->
+		<!--&lt;!&ndash;知识管理》》文档管理&ndash;&gt;-->
+		<!--<dependency>-->
+			<!--<groupId>com.itrjp.blog</groupId>-->
+			<!--<artifactId>renproject-blog-kl-knowledge</artifactId>-->
+			<!--<version>${project.version}</version>-->
+		<!--</dependency>-->
+		<!--打War用的 勿删 勿删-->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-tomcat</artifactId>
+			<scope>provided</scope>
+		</dependency>
+		<!--<dependency>-->
+			<!--<groupId>com.itrjp.blog</groupId>-->
+			<!--<artifactId>renproject-blog-vd</artifactId>-->
+			<!--<version>${project.version}</version>-->
+		<!--</dependency>-->
+		<!--知识管理》》文档管理-->
+		<!--<dependency>-->
+			<!--<groupId>com.itrjp.blog</groupId>-->
+			<!--<artifactId>renproject-blog-kl-knowledge</artifactId>-->
+			<!--<version>${project.version}</version>-->
+		<!--</dependency>-->
+	</dependencies>
+
+	<build>
+		<finalName>renblog</finalName>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-war-plugin</artifactId>
+				<version>${war-version}</version>
+				<!-- 多个web工程war包合并 -->
+				<configuration>
+                    <packagingExcludes>WEB-INF/web.xml</packagingExcludes>
+                    <overlays>
+                        <overlay>
+                            <artifactId>itrjp-framework-web</artifactId>
+                            <groupId>com.itrjp.blog</groupId>
+                        </overlay>
+                    </overlays>
+                </configuration>
+			</plugin>
+
+		</plugins>
+	</build>
+
+</project>

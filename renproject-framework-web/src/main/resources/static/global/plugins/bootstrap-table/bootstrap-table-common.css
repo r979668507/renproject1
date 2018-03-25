@@ -1,0 +1,218 @@
+/**
+ * @author zhixin wen <wenzhixin2010@gmail.com>
+ * version: 1.11.0
+ * https://github.com/wenzhixin/bootstrap-table/
+ */
+
+
+.bootstrap-table .table {
+	border-bottom: none!important;
+}
+.bootstrap-table .table:not(.table-condensed),
+.bootstrap-table .table:not(.table-condensed) > tbody > tr > th,
+.bootstrap-table .table:not(.table-condensed) > tfoot > tr > th,
+.bootstrap-table .table:not(.table-condensed) > thead > tr > td,
+.bootstrap-table .table:not(.table-condensed) > tbody > tr > td,
+.bootstrap-table .table:not(.table-condensed) > tfoot > tr > td {
+    padding: 5px 11px;
+    border: none;
+}
+.bootstrap-table .table:not(.table-condensed) > thead > tr > td,
+.bootstrap-table .table:not(.table-condensed) > tbody > tr > td,
+.bootstrap-table .table:not(.table-condensed) > tfoot > tr > td,
+.bootstrap-table .table:not(.table-condensed) > thead input,
+.bootstrap-table .table:not(.table-condensed) > tbody input {
+    cursor: pointer!important;
+}
+.bootstrap-table .table:not(.table-condensed),
+.bootstrap-table .table:not(.table-condensed) > tbody > tr > th:first-child,
+.bootstrap-table .table:not(.table-condensed) > tfoot > tr > th:first-child,
+.bootstrap-table .table:not(.table-condensed) > thead > tr > td:first-child,
+.bootstrap-table .table:not(.table-condensed) > tbody > tr > td:first-child,
+.bootstrap-table .table:not(.table-condensed) > tfoot > tr > td:first-child {
+    padding: 10px 11px 6px 35px;
+}
+
+.bootstrap-table .table.table-no-bordered > thead > tr > th,
+.bootstrap-table .table.table-no-bordered > tbody > tr > td {
+    border: none !important;
+}
+.fixed-table-container.table-no-bordered {
+    border: none!important;
+}
+.fixed-table-footer {
+    border-top: none!important;
+}
+.fixed-table-container thead th {
+	border-left: none!important;
+}
+
+.fixed-table-container tbody td {
+    border-left: none!important;
+}
+
+/* the same color with .active */
+/*.fixed-table-container tbody .selected td {
+    background-color: #fff!important;
+}*/
+
+.bootstrap-table .table th,.bootstrap-table .table td {
+    text-align: left !important;
+     vertical-align: middle!important;
+}
+.bootstrap-table .table thead tr {
+    background-color: #F0F5FB !important;
+}
+
+
+.bootstrap-table .table tbody tr {
+    border: none !important;
+    border-color: #fff !important;
+}
+.bootstrap-table .table tbody tr.selected td{
+    background-color: #f4f6f9!important;
+}
+.bootstrap-table .table tbody tr:hover {
+  background-color: #f4f6f9!important;
+}
+.bootstrap-table .table th {
+    border: none !important;
+    padding: 3px 0 !important;
+}
+
+.bootstrap-table .table th:nth-child(1),.bootstrap-table .table tbody tr td:nth-child(1) {
+    width: 70px!important;
+}
+.bootstrap-table .table tbody td span,
+.bootstrap-table .table thead th div {
+    color: #333!important;
+}
+.btn-default .page-size,.dropdown-menu a {
+    color: #44b6ae!important;
+}
+
+.fixed-table-pagination .pagination-info span {
+    color: #44b6ae!important;
+}
+
+.pagination .page-pre a {
+    color: #A4A4A4!important;
+}
+
+.pagination .page-number a,.pagination .page-first a,.pagination .page-last-separator a,.pagination .page-last a{
+    color: #666!important;
+}
+.fixed-table-pagination .page-list {
+    display: inline-block!important;
+ }
+.fixed-table-pagination .pull-right.pagination {
+    display: inline-block!important;
+ }
+.pagination .page-next a {
+    color: #44b6ae!important;
+}
+
+.pagination .active a,.pagination .active a:hover,.pagination .active a:focus {
+    background-color: #44b6ae!important;
+    color: #fff!important;
+    border-color: #44b6ae!important;
+}
+
+.fixed-table-pagination {
+    height: 48px!important;
+    background-color: #FFF!important;
+    padding: 13px 0 0 0 !important;
+}
+
+.fixed-table-pagination .pull-left.pagination-detail,.fixed-table-pagination .pull-right.pagination {
+    margin: 0!important;
+}
+
+/*表格复选框样式用图片覆盖*/
+.fixed-table-container .fixed-table-body tr input,
+.fixed-table-container .fixed-table-body .th-inner>input {
+    -webkit-appearance:none!important;
+    border: 1px solid #CCC!important;
+    border-radius: 3px!important;
+    outline: none!important;
+}
+.fixed-table-container .fixed-table-body .th-inner>input {
+    background-color: #F0F5FB !important;
+}
+.fixed-table-container .fixed-table-body tr.selected input:checked
+ {
+    background: url("../../../custom/images/common/pic.png") -67px -122px no-repeat!important;
+    -webkit-appearance:none!important;
+    outline: none!important;
+}
+.fixed-table-container .fixed-table-body .th-inner>input:checked{
+    background: url("../../../custom/images/common/pic.png") -67px -122px no-repeat!important;
+}
+.th-inner>input:checked{
+    background: url("../../../custom/images/common/pic.png") -67px -122px no-repeat!important;
+    -webkit-appearance:none!important;
+    outline: none!important;
+}
+.fixed-table-container {
+    border: none!important;
+}
+
+.btn-group.dropup > .dropdown-menu {
+    margin-top: 0!important;
+    margin-top: 10px!important;
+}
+.btn-group.dropup > .dropdown-menu li:hover {
+    background-color: #d4d4d4!important;
+}
+.btn-group.dropup > .dropdown-menu li.active,
+.btn-group.dropup > .dropdown-menu li.active:hover {
+    background-color: #428bca!important;
+}
+.dropdown-menu {
+  min-width: 160px;
+  height: auto!important;
+  padding: 5px 0;
+  margin: 2px 0 0;
+  list-style: none;
+  position: absolute;
+  left: 0;
+  top: -4px;
+  z-index: 1000;
+  display: none;
+  float: left;
+  list-style: none;
+  text-shadow: none;
+  padding: 0px;
+  background-color: #ffffff;
+  border: 1px solid #eee;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+}
+
+.dropdown-menu .active > a {
+  background-color: #428bca;
+}
+
+.fixed-table-container input[type="radio"],
+.fixed-table-container input[type="checkbox"] {
+    margin: 0 auto !important;
+    height: 18px !important;
+    width: 18px !important;
+    color: #fff;
+}
+
+.fixed-table-container .bs-checkbox .th-inner {
+    padding: 7px 11px 0px 35px!important;
+}
+
+.fixed-table-container .fixed-table-body {
+    background-color: #fff!important;
+    border: 1px solid #ddd!important;
+}
+
+
+

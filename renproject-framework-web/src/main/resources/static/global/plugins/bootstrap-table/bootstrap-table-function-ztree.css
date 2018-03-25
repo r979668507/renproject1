@@ -1,0 +1,94 @@
+/**
+ * @author zhixin wen <wenzhixin2010@gmail.com>
+ * version: 1.11.0
+ * https://github.com/wenzhixin/bootstrap-table/
+ */
+
+
+.ztree {
+	background-color: #FFF!important;
+	font-size: 13px!important;
+}
+
+.col-md-3 .portlet.light1 .portlet-body {
+	padding-top: 0!important;
+}
+.col-md-3 .portlet-title {
+	position: relative!important;
+	height: 100px!important;
+	background-color: #fff!important;
+}
+ 
+.portlet.light1 > .portlet-title > .inputs > .portlet-input .input-icon > i {
+	padding-left: 5px!important;
+	border-left: 1px solid#ddd!important;
+	color: #44b6ae!important;
+}
+
+.portlet.light1 > .portlet-title>.caption>.fa.fa-cogs:after {
+	display: inline-block!important;
+	width: 16px!important;
+	height: 15px!important;
+	background: url("../../../custom/images/common/pic.png") -520px -55px no-repeat!important;
+}
+
+.col-md-3 .portlet-title .inputs{
+	padding: 0!important;
+	display: block!important;
+	float: none!important;
+	margin-top: 10px!important;
+	margin-right: 0!important;
+	text-align: center!important;
+}
+.col-md-3 .portlet-title .inputs .input-small {
+	width: 50%!important;
+}
+
+.col-md-3 .portlet-title .caption.col-md-4{
+	width: 50%!important;
+	height: 32px!important;
+	padding: 0!important;
+	display: block!important;
+	float: none!important;
+	margin: 20px auto 0!important; 
+}
+
+/*.portlet > .portlet-title > .caption > i:before {
+	content: ""!important;
+	background: url("../../../images/common/pic.png") -745px -55px no-repeat!important
+}*/
+
+.col-md-3 .input-icon.right > .form-control {
+	height: 30px!important;
+}
+
+.ztree > li {
+	width: 187px!important;
+	margin: 0 auto!important;
+}
+
+/*.col-md-2 .portlet > .portlet-title > .caption > i:before {
+	content: ""!important;
+	display: inline-block!important;
+	padding: 10px!important;
+	background: url("../../../images/common/pic.png") -745px -55px no-repeat!important;
+}
+*/
+ 
+@media screen and (max-width: 992px) {
+	#tab_functionInformation .col-md-3 .portlet.light1 {
+		height: 330px!important;
+	}
+}
+
+@media screen and (min-width: 992px) and (max-width: 1366px) {
+	#tab_functionInformation .ztree {
+		height: 370px!important;
+	}
+}
+
+@media screen and (min-width: 1366px) {
+	#funTree {
+		height: 680px!important;
+	}
+}

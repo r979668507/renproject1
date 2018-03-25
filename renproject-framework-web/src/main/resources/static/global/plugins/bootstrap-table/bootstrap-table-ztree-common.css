@@ -1,0 +1,238 @@
+/**
+ * @author zhixin wen <wenzhixin2010@gmail.com>
+ * version: 1.11.0
+ * https://github.com/wenzhixin/bootstrap-table/
+ */
+
+ .col-md-3 > .portlet.light {
+ 	padding : 0!important;
+ 	margin-bottom: 0!important;
+ }
+ .col-md-3 > .portlet.light {
+ 	padding : 0!important;
+ 	margin-bottom: 0!important;
+ }
+
+/*.ztree > li.level0 > .button.chk.checkbox_false_full{
+	display: none!important;
+}*/
+/*.ztree > li.level0 > span.level0.switch {
+	height: 15px!important;
+	width: 15px!important;
+	background: white !*-675px -55px no-repeat*!!important;
+}*/
+
+
+.ztree > li.level0 > a.level0 > span.button.ico_open {
+	display: none!important;
+}
+
+.ztree > li.level0 > a.level0 {
+	background-color: #fff!important;
+}
+
+/*.ztree > li.level0 > ul.level0 li>span:nth-child(1) {
+	background: white !*url("../../../custom/images/common/pic.png") -676px -55px no-repeat*!!important;
+	width: 15px!important;
+	height: 15px!important;
+}*/
+/*.ztree > li.level0 > span.button.chk.checkbox_false_full,
+.ztree > li.level0 > ul.level0 li>span:nth-child(2) {
+	display: none!important;
+}*/
+#positionInRoleTree > li.level0 > span.button.chk.checkbox_false_full,
+#positionInRoleTree > li.level0 > ul.level0 li>span:nth-child(2),
+#funInRoleTree > li.level0 > span.button.chk.checkbox_false_full,
+#funInRoleTree > li.level0 > ul.level0 li>span:nth-child(2){
+	display: inline-block!important;
+}
+/*.ztree > li.level0 > ul.level0 li a>span:nth-child(1) {
+	display: none!important;
+}*/
+/*.ztree > li.level0 > ul.level0 li a span:nth-child(2) {*/
+	/*color: #44b6ae!important;*/
+/*}*/
+.ztree {
+	background-color: #FFF!important;
+	font-size: 13px!important;
+	overflow: auto!important;
+}
+
+.col-md-3 > .portlet.light > .portlet-body {
+	padding-top: 0!important;
+}
+#positionAuthorize .portlet.light .portlet-title,
+#positionAuthorize .portlet.light .portlet-title,
+.col-md-3 > .portlet.light1 > .portlet-title{
+	position: relative!important;
+	height: 100px!important;
+	background-color: #fff!important;
+}
+
+
+.portlet.light > .portlet-title > .inputs > .portlet-input .input-icon > i,
+.portlet.light1 > .portlet-title > .inputs > .portlet-input .input-icon > i {
+	padding-left: 5px!important;
+	border-left: 1px solid#ddd!important;
+	color: #44b6ae!important;
+}
+
+.portlet.light > .portlet-title>.caption>.fa.fa-cogs:after,
+.portlet.light > .portlet-title>.caption>.fa.fa-cogs:after {
+	display: inline-block!important;
+	width: 16px!important;
+	height: 15px!important;
+	background: url("../../../custom/images/common/pic.png") -520px -55px no-repeat!important;
+}
+
+#positionAuthorize .portlet-title .inputs,
+#roleAuthorize .portlet-title .inputs {
+	text-align: left!important;
+	float: none!important;
+	padding: 0!important;
+	margin-top: 10px!important;
+	margin-right: 0!important;
+	text-align: left!important;
+}
+
+#positionAuthorize .portlet-title,
+#roleAuthorize .portlet-title {
+	border-bottom: none!important;
+}
+
+.col-md-3 .portlet-title .inputs{
+	padding: 0!important;
+	display: block!important;
+	float: none!important;
+	margin-top: 10px!important;
+	margin-right: 0!important;
+	text-align: center!important;
+}
+
+.col-md-3 .portlet-title .inputs .pull-right {
+	float: none!important;
+}
+
+#positionAuthorize .portlet-title .inputs .input-small,
+#roleAuthorize .portlet-title .inputs .input-small {
+	width: 100%!important;
+}
+
+.col-md-3 .portlet-title .inputs .input-small {
+	width: 50%!important;
+}
+
+#positionAuthorize .portlet-title .caption.col-md-4,
+#roleAuthorize .portlet-title .caption.col-md-4 {
+	width: 50%!important;
+	display: block!important;
+	float: none!important;
+	height: 32px!important;
+	padding: 0!important;
+	margin-top: 20px!important;
+}
+
+.col-md-3 .portlet-title .caption.col-md-4{
+	width: 50%!important;
+	height: 32px!important;
+	padding: 0!important;
+	display: block!important;
+	float: none!important;
+	margin: 20px auto 0!important; 
+}
+
+/*.portlet > .portlet-title > .caption > i:before {
+	content: ""!important;
+	background: url("../../../images/common/pic.png") -745px -55px no-repeat!important
+}*/
+
+.col-md-3 .input-icon.right > .form-control {
+	height: 30px!important;
+}
+#funInRoleTree > li,#positionInRoleTree > li {
+	margin: 0!important;
+}
+.ztree > li.level0 > a.level0 > span.button.ico_close {
+	display: none!important;
+}
+
+.ztree > li {
+	width: 147px!important;
+	margin: 0 auto!important;
+}
+
+/*.col-md-2 .portlet > .portlet-title > .caption > i:before {
+	content: ""!important;
+	display: inline-block!important;
+	padding: 10px!important;
+	background: url("../../../images/common/pic.png") -745px -55px no-repeat!important;
+}
+*/
+
+/*.ztree li span.button.noline_open, .ztree li span.button.diy01_ico_close {
+	background: url("custom/images/common/favicon.png") no-repeat scroll 0 0 transparent!important;
+	vertical-align: top;
+	*vertical-align: middle
+}*/
+
+.ztree li span.button.noline_open {
+	background: url("../../../custom/images/common/show.png") no-repeat scroll 0 0 transparent!important;;
+	vertical-align: top;
+	*vertical-align: middle
+}
+
+.ztree li span.button.noline_close {
+	background: url("../../../custom/images/common/hide.png") no-repeat scroll 0 0 transparent!important;;
+	vertical-align: top;
+	*vertical-align: middle;
+}
+.ztree li span.button.noline_docu{
+	/*background: url("../../../custom/images/common/clear.png") no-repeat scroll 0 0 transparent!important;*/
+	background-position: -105px -84px;
+	vertical-align: top;
+	*vertical-align: middle
+}
+
+@media screen and (max-width: 992px) {
+	#tab_dictionaryInfo .col-md-3 .portlet.light {
+		height: auto!important;
+		margin-bottom: 12px!important;
+	}
+	
+	.col-md-3 .portlet.light {
+		height: 350px!important;
+	}
+}
+
+@media screen and (min-width: 992px) and (max-width: 1367px) {
+	.ztree {
+		height: 368px!important;
+	}
+	#funTree {
+	    height: 373px!important;
+	}
+	#roleAuthorize .ztree {
+	    height: 259px!important;
+	}
+	#positionAuthorize .ztree {
+		height: 263px!important;
+	}
+}
+
+@media screen and (min-width: 1367px) {
+	#tab_dictionaryInfo .portlet-body > ul {
+		height: 695px!important;
+	}
+	.ztree {
+		height: 700px!important;
+	}
+	#tab_dataShow .ztree {
+		height: 695px!important;
+	}
+	#roleAuthorize .ztree {
+	    height: 587px!important;
+	}
+	#positionAuthorize .ztree {
+		height: 591px!important;
+	}
+}

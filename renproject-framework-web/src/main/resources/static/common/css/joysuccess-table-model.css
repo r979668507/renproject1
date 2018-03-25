@@ -1,0 +1,20 @@
+.modal-header {
+    border-bottom: 0;
+    background:#44b6ae;
+}
+
+.modal-header .modal-title {
+    font-family: tahoma, arial, 'Hiragino Sans GB', '\5FAE\8F6F\96C5\9ED1', sans-serif;
+    font-size: 16px;
+    color:white;
+}
+
+h3{
+    font-size:18px
+}
+.form .form-section{
+    margin:12px 0px 25px 0px;
+}
+.fa-times{
+    cursor: pointer;
+}

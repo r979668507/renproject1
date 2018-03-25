@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>renproject</artifactId>
+        <groupId>com.itrjp.blog</groupId>
+        <version>0.0.1-SNAPSHOT</version>
+    </parent>
+
+    <artifactId>renproject-blog</artifactId>
+    <modelVersion>4.0.0</modelVersion>
+    <packaging>pom</packaging>
+    <modules>
+        <module>renproject-blog-auth</module>
+        <!--<module>renproject-blog-bi</module>-->
+        <module>renproject-blog-carrier-web</module>
+        <module>renproject-blog-auth</module>
+        <!--<module>renproject-blog-sys-setting</module>-->
+        <!--<module>renproject-blog-plugin</module>-->
+        <!--<module>renproject-blog-scheduler</module>-->
+        <!--<module>renproject-blog-visual</module>-->
+        <!--<module>renproject-blog-om</module>-->
+        <!--<module>renproject-blog-vd</module>-->
+        <!--<module>renproject-blog-alarm</module>-->
+        <!--<module>renproject-blog-mobile</module>-->
+        <!--<module>renproject-blog-rm</module>-->
+        <!--<module>renproject-blog-cm</module>-->
+        <!--<module>renproject-blog-im</module>-->
+        <!--<module>renproject-blog-di</module>-->
+        <!--<module>renproject-blog-kl</module>-->
+    </modules>
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context</artifactId>
+            <version>4.3.2.RELEASE</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-web</artifactId>
+            <version>4.3.2.RELEASE</version>
+        </dependency>
+        <dependency>
+            <groupId>com.itrjp.blog</groupId>
+            <artifactId>renproject-framework-common</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
+
+
+
+</project>

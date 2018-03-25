@@ -1,0 +1,73 @@
+/* 
+    Created on : 2015-8-11, 16:18:09
+    Author     : joe
+*/
+
+.li-close-tab{
+    position:relative;
+}
+.avb {
+    font-weight: bold;
+    color:rgba(69, 182, 175, 0.67) !important;
+    background-color:transparent;
+}
+.activeAvb {
+    background-color: #f7f7f7;
+    color:rgba(69, 182, 175, 0.67) !important;
+    font-weight: bold;
+    text-decoration:none;
+}
+
+.close-tab {
+    position:absolute;
+    right:-13px;
+    top:-7px;
+    z-index:100;
+    cursor: pointer;
+    /*font-size: 10px;*/
+    /*position:absolute;*/
+    /*right: 23px;*/
+    /*top: -7px;*/
+    /*padding-left: 25px;*/
+    /*z-index: 100;*/
+    /*cursor: hand;*/
+    /*color: #94A6B0;*/
+}
+
+/*.close-tab {
+    font-size: 10px;
+    position:relative;
+    right: 7px;
+    top: -5px;
+    padding-left: 25px;
+    z-index: 100;
+    cursor: pointer;
+    color: #94A6B0;
+}*/
+
+.nav-tabs {position: relative;}
+.nav-tabs li{position: relative;}
+
+.iframeClass {
+    z-index: 1;
+    visibility: inherit;
+    width: 100%;
+    frameborder: 'no';
+    border: 0;
+    marginwidth: 0;
+    marginheight: 0;
+    scrolling-x: 'no';
+    scrolling-y: auto;
+    allowtransparency: true;
+}
+
+.tab-drop {
+    margin-right: 30px;
+}
+
+.rightMenu {
+    position: absolute;
+    width: 150px;
+    z-index: 99;
+    display: none;
+}
