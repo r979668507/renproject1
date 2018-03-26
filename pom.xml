@@ -13,7 +13,7 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>1.5.7.RELEASE</version>
+		<version>1.4.0.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 
@@ -57,13 +57,13 @@
 
 		<module>renproject-view-device</module>
 		<module>renproject-blog</module>
-		<module>renproject-framework-common</module>
-		<module>renproject-mybatis-generator</module>
-		<module>renproject-project-manager</module>
-		<module>renproject-mybatis-comment</module>
+		<!--<module>renproject-framework-common</module>-->
+		<!--<module>renproject-mybatis-generator</module>-->
+		<!--<module>renproject-project-manager</module>-->
+		<!--<module>renproject-mybatis-comment</module>-->
 
-		<module>renproject-view-device</module>
-		<module>renproject-blog</module>
+		<!--<module>renproject-view-device</module>-->
+		<!--<module>renproject-blog</module>-->
 	</modules>
 	<!--控制继承-->
 	<dependencyManagement>

@@ -15,7 +15,7 @@
         <module>renproject-blog-auth</module>
         <!--<module>renproject-blog-bi</module>-->
         <module>renproject-blog-carrier-web</module>
-        <module>renproject-blog-auth</module>
+        <!--<module>renproject-blog-auth</module>-->
         <!--<module>renproject-blog-sys-setting</module>-->
         <!--<module>renproject-blog-plugin</module>-->
         <!--<module>renproject-blog-scheduler</module>-->
